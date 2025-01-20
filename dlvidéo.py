@@ -12,6 +12,7 @@ def download_video(url):
     except Exception as e:
         print(f"Une erreur est survenue : {str(e)}")
 
+# Condition
 if __name__ == "__main__":
     link = input("Entrez le lien de la vidéo Youtube : ")
     download_video(link)
